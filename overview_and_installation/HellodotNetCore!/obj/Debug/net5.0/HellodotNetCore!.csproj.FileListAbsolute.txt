@@ -1,0 +1,15 @@
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/overview_and_installation/HellodotNetCore!/bin/Debug/net5.0/HellodotNetCore!.deps.json
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/overview_and_installation/HellodotNetCore!/bin/Debug/net5.0/HellodotNetCore!.runtimeconfig.json
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/overview_and_installation/HellodotNetCore!/bin/Debug/net5.0/HellodotNetCore!.runtimeconfig.dev.json
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/overview_and_installation/HellodotNetCore!/bin/Debug/net5.0/HellodotNetCore!.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/overview_and_installation/HellodotNetCore!/bin/Debug/net5.0/ref/HellodotNetCore!.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/overview_and_installation/HellodotNetCore!/bin/Debug/net5.0/HellodotNetCore!.pdb
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/overview_and_installation/HellodotNetCore!/obj/Debug/net5.0/HellodotNetCore!.csprojAssemblyReference.cache
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/overview_and_installation/HellodotNetCore!/obj/Debug/net5.0/HellodotNetCore!.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/overview_and_installation/HellodotNetCore!/obj/Debug/net5.0/HellodotNetCore!.AssemblyInfoInputs.cache
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/overview_and_installation/HellodotNetCore!/obj/Debug/net5.0/HellodotNetCore!.AssemblyInfo.cs
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/overview_and_installation/HellodotNetCore!/obj/Debug/net5.0/HellodotNetCore!.csproj.CoreCompileInputs.cache
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/overview_and_installation/HellodotNetCore!/obj/Debug/net5.0/HellodotNetCore!.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/overview_and_installation/HellodotNetCore!/obj/Debug/net5.0/ref/HellodotNetCore!.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/overview_and_installation/HellodotNetCore!/obj/Debug/net5.0/HellodotNetCore!.pdb
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/overview_and_installation/HellodotNetCore!/obj/Debug/net5.0/HellodotNetCore!.genruntimeconfig.cache

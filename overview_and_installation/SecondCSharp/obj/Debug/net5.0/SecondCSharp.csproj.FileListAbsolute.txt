@@ -1,0 +1,15 @@
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/overview_and_installation/SecondCSharp/bin/Debug/net5.0/SecondCSharp.deps.json
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/overview_and_installation/SecondCSharp/bin/Debug/net5.0/SecondCSharp.runtimeconfig.json
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/overview_and_installation/SecondCSharp/bin/Debug/net5.0/SecondCSharp.runtimeconfig.dev.json
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/overview_and_installation/SecondCSharp/bin/Debug/net5.0/SecondCSharp.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/overview_and_installation/SecondCSharp/bin/Debug/net5.0/ref/SecondCSharp.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/overview_and_installation/SecondCSharp/bin/Debug/net5.0/SecondCSharp.pdb
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/overview_and_installation/SecondCSharp/obj/Debug/net5.0/SecondCSharp.csprojAssemblyReference.cache
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/overview_and_installation/SecondCSharp/obj/Debug/net5.0/SecondCSharp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/overview_and_installation/SecondCSharp/obj/Debug/net5.0/SecondCSharp.AssemblyInfoInputs.cache
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/overview_and_installation/SecondCSharp/obj/Debug/net5.0/SecondCSharp.AssemblyInfo.cs
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/overview_and_installation/SecondCSharp/obj/Debug/net5.0/SecondCSharp.csproj.CoreCompileInputs.cache
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/overview_and_installation/SecondCSharp/obj/Debug/net5.0/SecondCSharp.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/overview_and_installation/SecondCSharp/obj/Debug/net5.0/ref/SecondCSharp.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/overview_and_installation/SecondCSharp/obj/Debug/net5.0/SecondCSharp.pdb
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/overview_and_installation/SecondCSharp/obj/Debug/net5.0/SecondCSharp.genruntimeconfig.cache
