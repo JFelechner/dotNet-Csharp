@@ -43,12 +43,12 @@ namespace classDemo
         }
 
         // Methods are functions that are declared within a class.
-        public void makeNoise(string noise)
+        public virtual void makeNoise(string noise)
         {
             Console.WriteLine(noise);
         }
 
-        public void eat()
+        public virtual void eat()
         {
             Console.WriteLine("Munch Munch");
             this.weight+=0.3;

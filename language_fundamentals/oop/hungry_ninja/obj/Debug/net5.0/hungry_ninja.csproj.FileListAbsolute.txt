@@ -1,0 +1,15 @@
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/hungry_ninja/bin/Debug/net5.0/hungry_ninja.deps.json
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/hungry_ninja/bin/Debug/net5.0/hungry_ninja.runtimeconfig.json
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/hungry_ninja/bin/Debug/net5.0/hungry_ninja.runtimeconfig.dev.json
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/hungry_ninja/bin/Debug/net5.0/hungry_ninja.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/hungry_ninja/bin/Debug/net5.0/ref/hungry_ninja.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/hungry_ninja/bin/Debug/net5.0/hungry_ninja.pdb
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/hungry_ninja/obj/Debug/net5.0/hungry_ninja.csprojAssemblyReference.cache
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/hungry_ninja/obj/Debug/net5.0/hungry_ninja.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/hungry_ninja/obj/Debug/net5.0/hungry_ninja.AssemblyInfoInputs.cache
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/hungry_ninja/obj/Debug/net5.0/hungry_ninja.AssemblyInfo.cs
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/hungry_ninja/obj/Debug/net5.0/hungry_ninja.csproj.CoreCompileInputs.cache
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/hungry_ninja/obj/Debug/net5.0/hungry_ninja.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/hungry_ninja/obj/Debug/net5.0/ref/hungry_ninja.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/hungry_ninja/obj/Debug/net5.0/hungry_ninja.pdb
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/hungry_ninja/obj/Debug/net5.0/hungry_ninja.genruntimeconfig.cache
