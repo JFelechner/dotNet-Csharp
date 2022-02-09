@@ -1,0 +1,15 @@
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/wizard_ninja_samurai/bin/Debug/net5.0/wizard_ninja_samurai.deps.json
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/wizard_ninja_samurai/bin/Debug/net5.0/wizard_ninja_samurai.runtimeconfig.json
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/wizard_ninja_samurai/bin/Debug/net5.0/wizard_ninja_samurai.runtimeconfig.dev.json
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/wizard_ninja_samurai/bin/Debug/net5.0/wizard_ninja_samurai.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/wizard_ninja_samurai/bin/Debug/net5.0/ref/wizard_ninja_samurai.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/wizard_ninja_samurai/bin/Debug/net5.0/wizard_ninja_samurai.pdb
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/wizard_ninja_samurai/obj/Debug/net5.0/wizard_ninja_samurai.csprojAssemblyReference.cache
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/wizard_ninja_samurai/obj/Debug/net5.0/wizard_ninja_samurai.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/wizard_ninja_samurai/obj/Debug/net5.0/wizard_ninja_samurai.AssemblyInfoInputs.cache
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/wizard_ninja_samurai/obj/Debug/net5.0/wizard_ninja_samurai.AssemblyInfo.cs
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/wizard_ninja_samurai/obj/Debug/net5.0/wizard_ninja_samurai.csproj.CoreCompileInputs.cache
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/wizard_ninja_samurai/obj/Debug/net5.0/wizard_ninja_samurai.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/wizard_ninja_samurai/obj/Debug/net5.0/ref/wizard_ninja_samurai.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/wizard_ninja_samurai/obj/Debug/net5.0/wizard_ninja_samurai.pdb
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/wizard_ninja_samurai/obj/Debug/net5.0/wizard_ninja_samurai.genruntimeconfig.cache

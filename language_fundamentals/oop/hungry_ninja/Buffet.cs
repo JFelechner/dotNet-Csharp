@@ -6,9 +6,9 @@ namespace hungry_ninja
 {
     public class Buffet
     {
-        public List<Food> Menu;
 
         // Create a Buffet class, which will contain a Menu of Food objects
+        public List<Food> Menu;
         // add a constructor and set Menu to a hard coded list of 7 or more Food objects you instantiate manually
         public Buffet()
         {

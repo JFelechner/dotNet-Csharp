@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/wizard_ninja_samurai/wizard_ninja_samurai.csproj": {}
+  },
+  "projects": {
+    "/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/wizard_ninja_samurai/wizard_ninja_samurai.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/wizard_ninja_samurai/wizard_ninja_samurai.csproj",
+        "projectName": "wizard_ninja_samurai",
+        "projectPath": "/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/wizard_ninja_samurai/wizard_ninja_samurai.csproj",
+        "packagesPath": "/Users/jfelechner/.nuget/packages/",
+        "outputPath": "/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/wizard_ninja_samurai/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jfelechner/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.104/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

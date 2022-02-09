@@ -1,0 +1,15 @@
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/lecture_w1d3/more_oop/bin/Debug/net5.0/more_oop.deps.json
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/lecture_w1d3/more_oop/bin/Debug/net5.0/more_oop.runtimeconfig.json
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/lecture_w1d3/more_oop/bin/Debug/net5.0/more_oop.runtimeconfig.dev.json
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/lecture_w1d3/more_oop/bin/Debug/net5.0/more_oop.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/lecture_w1d3/more_oop/bin/Debug/net5.0/ref/more_oop.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/lecture_w1d3/more_oop/bin/Debug/net5.0/more_oop.pdb
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/lecture_w1d3/more_oop/obj/Debug/net5.0/more_oop.csprojAssemblyReference.cache
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/lecture_w1d3/more_oop/obj/Debug/net5.0/more_oop.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/lecture_w1d3/more_oop/obj/Debug/net5.0/more_oop.AssemblyInfoInputs.cache
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/lecture_w1d3/more_oop/obj/Debug/net5.0/more_oop.AssemblyInfo.cs
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/lecture_w1d3/more_oop/obj/Debug/net5.0/more_oop.csproj.CoreCompileInputs.cache
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/lecture_w1d3/more_oop/obj/Debug/net5.0/more_oop.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/lecture_w1d3/more_oop/obj/Debug/net5.0/ref/more_oop.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/lecture_w1d3/more_oop/obj/Debug/net5.0/more_oop.pdb
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/lecture_w1d3/more_oop/obj/Debug/net5.0/more_oop.genruntimeconfig.cache
