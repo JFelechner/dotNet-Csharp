@@ -1,0 +1,15 @@
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/deck_of_cards/bin/Debug/net5.0/deck_of_cards.deps.json
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/deck_of_cards/bin/Debug/net5.0/deck_of_cards.runtimeconfig.json
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/deck_of_cards/bin/Debug/net5.0/deck_of_cards.runtimeconfig.dev.json
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/deck_of_cards/bin/Debug/net5.0/deck_of_cards.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/deck_of_cards/bin/Debug/net5.0/ref/deck_of_cards.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/deck_of_cards/bin/Debug/net5.0/deck_of_cards.pdb
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/deck_of_cards/obj/Debug/net5.0/deck_of_cards.csprojAssemblyReference.cache
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/deck_of_cards/obj/Debug/net5.0/deck_of_cards.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/deck_of_cards/obj/Debug/net5.0/deck_of_cards.AssemblyInfoInputs.cache
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/deck_of_cards/obj/Debug/net5.0/deck_of_cards.AssemblyInfo.cs
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/deck_of_cards/obj/Debug/net5.0/deck_of_cards.csproj.CoreCompileInputs.cache
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/deck_of_cards/obj/Debug/net5.0/deck_of_cards.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/deck_of_cards/obj/Debug/net5.0/ref/deck_of_cards.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/deck_of_cards/obj/Debug/net5.0/deck_of_cards.pdb
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/language_fundamentals/oop/deck_of_cards/obj/Debug/net5.0/deck_of_cards.genruntimeconfig.cache
