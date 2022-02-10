@@ -31,3 +31,4 @@
 /Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/asp_dotNet_core/asp_mvc1/lecture_w1d4/intro_to_asp/obj/Debug/net5.0/intro_to_asp.RazorTargetAssemblyInfo.cs
 /Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/asp_dotNet_core/asp_mvc1/lecture_w1d4/intro_to_asp/obj/Debug/net5.0/intro_to_asp.Views.pdb
 /Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/asp_dotNet_core/asp_mvc1/lecture_w1d4/intro_to_asp/obj/Debug/net5.0/intro_to_asp.csproj.CopyComplete
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/asp_dotNet_core/asp_mvc1/lecture_w1d4/intro_to_asp/obj/Debug/net5.0/Razor/Views/Third/Third.cshtml.g.cs

@@ -13,19 +13,29 @@ namespace intro_to_asp.Controllers
         [Route("")]// An empty string takes me to the empty route
         public ViewResult Index()
         {
+            ViewBag.heffamoose = "This is the viewbag";
             return View("Index");
         }
 
         [HttpGet("second")] // This is the short hand way of writing the route
-        public string Second()
+        public RedirectToActionResult Second()
         {
-            return "Hello from the second page!";
+            return RedirectToAction("Index");
         }
 
         [HttpGet("third/{param}")]
-        public string Third(string param)
+        // IActionResult allows us to return anything (such as View or RedirectToAction)
+        public IActionResult Third(string whateverIWant)
         {
-            return $"The thing you wrote is: {param}";
+            if (whateverIWant == "apple")
+            {
+                return View("third");
+            }
+            else
+            {
+                ViewBag.heffamoose = "This is the viewbag from the third page";
+                return View("Index");
+            }
         }
     }
 }
