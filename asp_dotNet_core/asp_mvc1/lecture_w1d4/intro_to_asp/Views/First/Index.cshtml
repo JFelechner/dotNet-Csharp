@@ -21,5 +21,18 @@
         }
     }
     <h3>Coming from view bag: @ViewBag.heffamoose</h3>
+
+    <form action="firstPost" method="post">
+        <label for="">Better names for ViewBag</label>
+        <input type="text" name="names">
+        <input type="submit" value="Submit">
+    </form>
+    <h3>Suggested names for ViewBag variables</h3>
+    @{
+        foreach(string s in ViewBag.suggestions)
+        {
+            <p>@s</p>
+        }
+    }
 </body>
 </html>
