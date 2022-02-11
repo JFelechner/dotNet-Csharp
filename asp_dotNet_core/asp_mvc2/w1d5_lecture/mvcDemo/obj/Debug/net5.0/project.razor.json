@@ -1,5 +1,5 @@
 {
-  "FilePath": "/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/asp_dotNet_core/asp_mvc1/razor_fun/razor_fun.csproj",
+  "FilePath": "/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/asp_dotNet_core/asp_mvc2/w1d5_lecture/mvcDemo/mvcDemo.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15616,11 +15616,41 @@
     ],
     "CSharpLanguageVersion": 900
   },
-  "RootNamespace": "razor_fun",
+  "RootNamespace": "mvcDemo",
   "Documents": [
     {
-      "FilePath": "/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/asp_dotNet_core/asp_mvc1/razor_fun/Views/First/Index.cshtml",
-      "TargetPath": "Views\\First\\Index.cshtml",
+      "FilePath": "/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/asp_dotNet_core/asp_mvc2/w1d5_lecture/mvcDemo/Views/_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/asp_dotNet_core/asp_mvc2/w1d5_lecture/mvcDemo/Views/Shared/_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/asp_dotNet_core/asp_mvc2/w1d5_lecture/mvcDemo/Views/Shared/_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/asp_dotNet_core/asp_mvc2/w1d5_lecture/mvcDemo/Views/_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/asp_dotNet_core/asp_mvc2/w1d5_lecture/mvcDemo/Views/Home/Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/asp_dotNet_core/asp_mvc2/w1d5_lecture/mvcDemo/Views/Home/Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/asp_dotNet_core/asp_mvc2/w1d5_lecture/mvcDemo/Views/Shared/Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     }
   ],
