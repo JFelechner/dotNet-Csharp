@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Dojo Survey Index</title>
+</head>
+
+<body>
+
+    <div class="container px-4">
+        <div class="row gx-5">
+            <div class="col">
+                <div class="p-3 border bg-light">
+
+                    <form action="firstPost" method="post">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Your Name:</label>
+                            <input type="text" class="form-control" name="name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="dojoLocation" class="form-label">Dojo Location:</label>
+                            <select class="form-select" name="dojoLocation">
+                                <option>San Jose</option>
+                                <option>Chicago</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="favoriteLanguage" class="form-label">Favorite Language:</label>
+                            <select class="form-select" name="favoriteLanguage">
+                                <option>C#</option>
+                                <option>Java</option>
+                                <option>Javascript</option>
+                                <option>Python</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="comment" class="form-label">Comment (optional):</label>
+                            <textarea type="text" class="form-control" name="comment"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
