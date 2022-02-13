@@ -1,0 +1,63 @@
+﻿
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@{
+    string[] locations = new string[]
+            {
+"Seattle", "San Jose", "Dallas", "Chicago", "East Bay", "Online", "Burbank"
+            };
+
+    string[] languages = new string[]
+    {
+"C#", "Python", "Java", "Javascript", "C#"
+    };
+}
+
+@model User
+
+<div class="text-center">
+    <div class="container px-4">
+        <div class="row gx-5">
+            <div class="col">
+                <div class="p-3 border bg-light">
+
+                    <form asp-action="firstPost" method="post">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Your Name:</label>
+                            <input class="form-control" asp-for="userName">
+                            <span asp-validation-for="userName" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label for="dojoLocation" class="form-label">Dojo Location:</label>
+                            <select class="form-select" asp-for="userDojoLocation">
+                                @foreach (var loc in locations)
+                                {
+                                    <option value="@loc">@loc</option>
+                                }
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="favoriteLanguage" class="form-label">Favorite Language:</label>
+                            <select class="form-select" asp-for="userFavoriteLanguage">
+                                @foreach (var lang in languages)
+                                {
+                                    <option value="@lang">@lang</option>
+                                }
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="comment" class="form-label">Comment (optional):</label>
+                            <textarea  class="form-control" asp-for="userComment"></textarea>
+                            <span asp-validation-for="userComment" class="text-danger"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
