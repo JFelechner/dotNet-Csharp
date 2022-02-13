@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model User
+
+<div class="text-center">
+    <div class="container px-4">
+        <div class="row gx-5">
+            <div class="col">
+                <div class="p-3 border bg-light">
+
+                    <form asp-action="submission" method="post">
+                        <div class="mb-3">
+                            <label for="userFirstName" class="form-label">First Name:</label>
+                            <input  class="form-control" asp-for="userFirstName">
+                            <span asp-validation-for="userFirstName" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label for="userLastName" class="form-label">Last Name:</label>
+                            <input  class="form-control" asp-for="userLastName">
+                            <span asp-validation-for="userLastName" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label for="userAge" class="form-label">Age:</label>
+                            <input class="form-control" asp-for="userAge">
+                            <span asp-validation-for="userAge" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="userEmail" class="form-label">Email Address:</label>
+                            <input  class="form-control" 
+                                aria-describedby="emailHelp" asp-for="userEmail">
+                                <span asp-validation-for="userEmail" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label for="userPassword" class="form-label">Password</label>
+                            <input  class="form-control" asp-for="userPassword">
+                            <span asp-validation-for="userPassword" class="text-danger"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
