@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model generatePassword
+
+
+<div class="container px-4 text-center">
+    <div class="row gx-5">
+        <div class="col">
+            <div class="p-3 border ">
+                <h1 class="display-4">Random passcode (passcode @Model.numberOfPasscodes )</h1>
+                <div class="border border-2">
+                    <h3>@Model.suggestedPassword</h3>
+                </div>
+                <div><a href="generator" class="btn btn-warning">Generate</a></div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
