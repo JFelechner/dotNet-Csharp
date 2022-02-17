@@ -6,3 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.PublishSingleFile = 
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = form_submission
+build_property.ProjectDir = /Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/asp_dotNet_core/asp_mvc2/form_submission/

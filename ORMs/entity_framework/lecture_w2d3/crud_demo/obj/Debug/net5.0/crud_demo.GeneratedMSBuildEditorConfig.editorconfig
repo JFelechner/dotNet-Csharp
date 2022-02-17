@@ -6,5 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.PublishSingleFile = 
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
-build_property.RootNamespace = dojo_survey_with_validation
-build_property.ProjectDir = /Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/asp_dotNet_core/asp_mvc2/dojo_survey_with_validation/
+build_property.RootNamespace = crud_demo
+build_property.ProjectDir = /Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/ORMs/entity_framework/lecture_w2d3/crud_demo/
