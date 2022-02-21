@@ -1,0 +1,33 @@
+
+@{
+    ViewData["Title"] = "Privacy Policy";
+}
+
+@model List<Dish>
+
+<p class="d-flex justify-content-end"><a href="/adddish">Add a Dish</a></p>
+
+<h3>Yum, take a look at our tasty dishes!</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Chef</th>
+            <th scope="col">Tastiness</th>
+            <th scope="col">Calories</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        @foreach (Dish dish in Model)
+        {
+            <tr>
+                <td>@dish.Name</td>
+                <td>@dish.Owner.FirstName @dish.Owner.LastName</td>
+                <td>@dish.Tastiness</td>
+                <td>@dish.Calories</td>
+            </tr>
+        }
+    </tbody>
+</table>

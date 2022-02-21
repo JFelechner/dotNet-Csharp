@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model List<Chef>
+
+<p class="d-flex justify-content-end"><a href="/addchef">Add a Chef</a></p>
+
+<h3>Check out out roster of Chefs!</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Age</th>
+            <th scope="col"># of Dishes</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Chef chef in Model)
+        {
+            <tr>
+                <td>@chef.FirstName @chef.LastName</td>
+                <td>@chef.Age</td>
+                <td>@chef.DishQty()</td>
+            </tr>
+        }
+    </tbody>
+</table>
