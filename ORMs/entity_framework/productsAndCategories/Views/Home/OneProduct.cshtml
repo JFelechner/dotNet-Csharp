@@ -1,0 +1,49 @@
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model Product
+
+<div class="text-center">
+    <div class="container px-4">
+        <h1 class="display-4">@Model.Name</h1>
+        <div class="row gx-5">
+            <div class="col">
+                <div class="p-3 border bg-light">
+                    <h3>Categories</h3>
+                    @{
+                        foreach (ProductAndCategory c in Model.CategoriesList)
+                        {
+                            <h5 class="card-title">@c.Category.Name</h5>
+                        }
+                    }
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-3 border bg-light">
+                    <h3>Add to Product</h3>
+                    <form action="/addToProduct" method="post">
+                        <div class="form-group">
+                            <select name="CategoryId" class="form-control">
+                                @{
+                                    foreach (Category c in ViewBag.AllCategories)
+                                    {
+                                        if (!Model.CategoriesList.Any(s => s.CategoryId == c.CategoryId))
+                                        {
+                                            <option value="@c.CategoryId">@c.Name</option>
+                                        }
+                                    }
+                                }
+                            </select>
+                        </div>
+                        <input type="hidden" name="ProductId" value="@Model.ProductId">
+                        <div class="form-group">
+                            <input type="submit" value="Add to product" class="btn btn-warning">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
