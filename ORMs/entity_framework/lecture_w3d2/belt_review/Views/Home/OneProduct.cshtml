@@ -1,0 +1,44 @@
+<h1>One Product</h1>
+<div class="row">
+    <div class="card col" style="width: 18rem;">
+        <img src="@ViewBag.Product.Picture" class="card-img-top" alt="@ViewBag.Product.ProductName">
+        <div class="card-body">
+            <h5 class="card-title">@ViewBag.Product.ProductName</h5>
+            <p class="card-text">$@ViewBag.Product.Price</p>
+            @{
+                        if (ViewBag.Product.Quantity > 0)
+                        {
+                            <p class="card-text">In stock: @ViewBag.Product.Quantity</p>
+                        }
+                        else
+                        {
+                            <p class="card-text text-danger">NO STOCK</p>
+                        }
+                    }
+        </div>
+    </div>
+    <div class="col">
+        <h2>Actions</h2>
+        @{
+            if (ViewBag.LoggedInUser.UserId == ViewBag.Product.UserId)
+        {
+                <a href="/Product/Edit/@ViewBag.ProductId" class="btn btn-info">Edit</a>
+                <a href="/Product/Delete/@ViewBag.ProductId" class="btn btn-danger">Delete</a>
+            } else {
+                if(ViewBag.Product.Quantity > 0)
+                {
+                    <form action="/Product/Buy" method="post">
+                    <input type="number" name="Quantity" max="@ViewBag.Product.Quantity" class="form-control">
+                    <input type="hidden" name="UserId" value="@ViewBag.LoggedInUser.UserId">
+                    <input type="hidden" name="ProductId" value="@ViewBag.Product.ProductId">
+                    <input type="submit" value="Buy" class="btn btn-success">
+                </form>
+                <p class="text-danger">@ViewBag.ErrorMessage</p>
+                }else
+                {
+                    <h3 class="text-danger">OUT OF STOCK</h3>
+                }
+            }
+        }
+    </div>
+</div>

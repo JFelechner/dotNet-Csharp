@@ -1,0 +1,17 @@
+
+<h1>@ViewBag.Wedding.WedderOne & @ViewBag.Wedding.WedderTwo's Wedding</h1>
+<h3>Date: @ViewBag.Wedding.Date</h3>
+<hr>
+<table class="table table-striped">
+    <tr>
+        <th>Guests</th>
+    </tr>
+    <tr>
+        @{
+            foreach (RSVP r in ViewBag.Wedding.Guests)
+            {
+                <td>@r.User.FirstName @r.User.LastName</td>
+            }
+        }
+    </tr>
+</table>

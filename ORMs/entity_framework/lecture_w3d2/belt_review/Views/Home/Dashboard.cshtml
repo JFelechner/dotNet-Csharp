@@ -1,0 +1,47 @@
+<h1>Welcome @ViewBag.LoggedInUser.Name!</h1>
+<h2>Your Products</h2>
+<div class="d-flex flex-wrap">
+    @{
+        foreach (Product p in ViewBag.LoggedInUser.Inventory)
+        {
+            <div class="card" style="width: 18rem;">
+                <img src="@p.Picture" class="card-img-top" alt="@p.ProductName">
+                <div class="card-body">
+                    <h5 class="card-title"><a href="/Product/@p.ProductId">@p.ProductName</a></h5>
+                    <p class="card-text">$@p.Price</p>
+                    @{
+                        if (p.Quantity > 0)
+                        {
+                            <p class="card-text">In stock: @p.Quantity</p>
+                        }
+                        else
+                        {
+                            <p class="card-text text-danger">NO STOCK</p>
+                        }
+                    }
+                    <a href="/Product/Edit/@p.ProductId" class="btn btn-info">Edit</a>
+                    <a href="/Product/Delete/@p.ProductId" class="btn btn-danger">Delete</a>
+                </div>
+            </div>
+        }
+
+    }
+</div>
+<hr>
+<h2>Your Orders</h2>
+<div class="d-flex flex-wrap">
+    @{
+        foreach (Order p in ViewBag.LoggedInUser.MyOrders)
+        {
+            <div class="card" style="width: 18rem;">
+                <img src="@p.Product.Picture" class="card-img-top" alt="@p.Product.ProductName">
+                <div class="card-body">
+                    <h5 class="card-title"><a href="/Product/@p.ProductId">@p.Product.ProductName</a></h5>
+                    <p class="card-text">Order total: $@(p.Product.Price*p.Quantity)</p>
+                    <p class="card-text">Ordered: @p.Quantity</p>
+                </div>
+            </div>
+        }
+
+    }
+</div>

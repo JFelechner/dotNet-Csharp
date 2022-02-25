@@ -1,0 +1,49 @@
+@model List<Wedding>
+
+<h1>Welcome to the Wedding Planner</h1>
+<table class="table table-striped">
+    <tr>
+        <th>Wedding</th>
+        <th>Date</th>
+        <th>Guest</th>
+        <th>Action</th>
+    </tr>
+    @{
+        foreach (Wedding wedding in Model)
+        {
+            <tr>
+                <td><a href="/Wedding/@wedding.WeddingId">@wedding.WedderOne & @wedding.WedderTwo </a></td>
+                <td>@wedding.Date</td>
+                <td>@wedding.Guests.Count</td>
+
+                @if (ViewBag.LoggedInUser.UserId == wedding.UserId)
+                {
+                    <td><a class="btn btn-danger" href="Wedding/Delete/@wedding.WeddingId">Delete</a></td>
+                }
+                else
+                {
+                    @if (wedding.Guests.Any(g => g.UserId == ViewBag.LoggedInUser.UserId))
+                    {
+                        <td>
+                            <form action="UnRSVP" method="post">
+                                <input type="hidden" name="UserId" value="@ViewBag.LoggedInUser.UserId">
+                                <input type="hidden" name="WeddingId" value="@wedding.WeddingId">
+                                <input type="submit" class="btn btn-info" value="Un-RSVP">
+                            </form>
+                        </td>
+                    }
+                    else
+                    {
+                        <td>
+                            <form action="RSVP" method="post">
+                                <input type="hidden" name="UserId" value="@ViewBag.LoggedInUser.UserId">
+                                <input type="hidden" name="WeddingId" value="@wedding.WeddingId">
+                                <input type="submit" class="btn btn-info" value="RSVP">
+                            </form>
+                        </td>
+                    }
+                }
+            </tr>
+        }
+    }
+</table>
