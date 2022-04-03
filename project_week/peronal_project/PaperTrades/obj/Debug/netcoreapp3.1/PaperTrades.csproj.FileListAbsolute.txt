@@ -1,0 +1,128 @@
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/obj/Debug/netcoreapp3.1/PaperTrades.csprojAssemblyReference.cache
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/obj/Debug/netcoreapp3.1/PaperTrades.AssemblyInfoInputs.cache
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/obj/Debug/netcoreapp3.1/PaperTrades.AssemblyInfo.cs
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/obj/Debug/netcoreapp3.1/PaperTrades.csproj.CoreCompileInputs.cache
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/obj/Debug/netcoreapp3.1/PaperTrades.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/obj/Debug/netcoreapp3.1/PaperTrades.RazorAssemblyInfo.cache
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/obj/Debug/netcoreapp3.1/PaperTrades.RazorAssemblyInfo.cs
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/bin/Debug/netcoreapp3.1/appsettings.Development.json
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/bin/Debug/netcoreapp3.1/appsettings.json
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/bin/Debug/netcoreapp3.1/PaperTrades.exe
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/bin/Debug/netcoreapp3.1/PaperTrades.deps.json
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/bin/Debug/netcoreapp3.1/PaperTrades.runtimeconfig.json
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/bin/Debug/netcoreapp3.1/PaperTrades.runtimeconfig.dev.json
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/bin/Debug/netcoreapp3.1/PaperTrades.dll
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/bin/Debug/netcoreapp3.1/PaperTrades.pdb
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/bin/Debug/netcoreapp3.1/PaperTrades.Views.dll
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/bin/Debug/netcoreapp3.1/PaperTrades.Views.pdb
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/bin/Debug/netcoreapp3.1/Microsoft.Bcl.HashCode.dll
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/bin/Debug/netcoreapp3.1/MySqlConnector.dll
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/bin/Debug/netcoreapp3.1/Pomelo.EntityFrameworkCore.MySql.dll
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/bin/Debug/netcoreapp3.1/Pomelo.JsonObject.dll
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/obj/Debug/netcoreapp3.1/PaperTrades.TagHelpers.input.cache
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/obj/Debug/netcoreapp3.1/PaperTrades.TagHelpers.output.cache
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/obj/Debug/netcoreapp3.1/PaperTrades.RazorCoreGenerate.cache
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/obj/Debug/netcoreapp3.1/Razor/Views/Home/Dashboard.cshtml.g.cs
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/obj/Debug/netcoreapp3.1/Razor/Views/Home/Login.cshtml.g.cs
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/obj/Debug/netcoreapp3.1/PaperTrades.RazorTargetAssemblyInfo.cache
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/obj/Debug/netcoreapp3.1/PaperTrades.RazorTargetAssemblyInfo.cs
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/obj/Debug/netcoreapp3.1/PaperTrades.Views.pdb
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/obj/Debug/netcoreapp3.1/PaperTrades.csproj.CopyComplete
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/obj/Debug/netcoreapp3.1/staticwebassets/PaperTrades.StaticWebAssets.Manifest.cache
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/obj/Debug/netcoreapp3.1/staticwebassets/PaperTrades.StaticWebAssets.xml
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/obj/Debug/netcoreapp3.1/PaperTrades.dll
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/obj/Debug/netcoreapp3.1/PaperTrades.pdb
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/obj/Debug/netcoreapp3.1/PaperTrades.genruntimeconfig.cache
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/obj/Debug/netcoreapp3.1/Razor/Views/Home/AddWallet.cshtml.g.cs
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/obj/Debug/netcoreapp3.1/Razor/Views/Home/AllCryptos.cshtml.g.cs
+C:/Users/dhrus/OneDrive/Desktop/C#/PaperTrades/obj/Debug/netcoreapp3.1/Razor/Views/Home/ViewOneCrypto.cshtml.g.cs
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/bin/Debug/netcoreapp3.1/appsettings.Development.json
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/bin/Debug/netcoreapp3.1/appsettings.json
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/bin/Debug/netcoreapp3.1/PaperTrades.deps.json
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/bin/Debug/netcoreapp3.1/PaperTrades.runtimeconfig.json
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/bin/Debug/netcoreapp3.1/PaperTrades.runtimeconfig.dev.json
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/bin/Debug/netcoreapp3.1/PaperTrades.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/bin/Debug/netcoreapp3.1/PaperTrades.pdb
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/bin/Debug/netcoreapp3.1/PaperTrades.Views.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/bin/Debug/netcoreapp3.1/PaperTrades.Views.pdb
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/bin/Debug/netcoreapp3.1/Microsoft.Bcl.HashCode.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/bin/Debug/netcoreapp3.1/MySqlConnector.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/bin/Debug/netcoreapp3.1/Pomelo.EntityFrameworkCore.MySql.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/bin/Debug/netcoreapp3.1/Pomelo.JsonObject.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/obj/Debug/netcoreapp3.1/PaperTrades.csproj.AssemblyReference.cache
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/obj/Debug/netcoreapp3.1/PaperTrades.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/obj/Debug/netcoreapp3.1/PaperTrades.AssemblyInfoInputs.cache
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/obj/Debug/netcoreapp3.1/PaperTrades.AssemblyInfo.cs
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/obj/Debug/netcoreapp3.1/PaperTrades.csproj.CoreCompileInputs.cache
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/obj/Debug/netcoreapp3.1/PaperTrades.MvcApplicationPartsAssemblyInfo.cache
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/obj/Debug/netcoreapp3.1/PaperTrades.RazorAssemblyInfo.cache
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/obj/Debug/netcoreapp3.1/PaperTrades.RazorAssemblyInfo.cs
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/obj/Debug/netcoreapp3.1/staticwebassets/PaperTrades.StaticWebAssets.Manifest.cache
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/obj/Debug/netcoreapp3.1/staticwebassets/PaperTrades.StaticWebAssets.xml
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/obj/Debug/netcoreapp3.1/scopedcss/bundle/PaperTrades.styles.css
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/obj/Debug/netcoreapp3.1/PaperTrades.TagHelpers.input.cache
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/obj/Debug/netcoreapp3.1/PaperTrades.TagHelpers.output.cache
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/obj/Debug/netcoreapp3.1/PaperTrades.RazorCoreGenerate.cache
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/obj/Debug/netcoreapp3.1/Razor/Views/Home/AddWallet.cshtml.g.cs
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/obj/Debug/netcoreapp3.1/Razor/Views/Home/AllCryptos.cshtml.g.cs
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/obj/Debug/netcoreapp3.1/Razor/Views/Home/Dashboard.cshtml.g.cs
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/obj/Debug/netcoreapp3.1/Razor/Views/Home/Login.cshtml.g.cs
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/obj/Debug/netcoreapp3.1/Razor/Views/Home/ViewOneCrypto.cshtml.g.cs
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/obj/Debug/netcoreapp3.1/PaperTrades.RazorTargetAssemblyInfo.cache
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/obj/Debug/netcoreapp3.1/PaperTrades.RazorTargetAssemblyInfo.cs
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/obj/Debug/netcoreapp3.1/PaperTrades.Views.pdb
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/obj/Debug/netcoreapp3.1/PaperTrades.csproj.CopyComplete
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/obj/Debug/netcoreapp3.1/PaperTrades.dll
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/obj/Debug/netcoreapp3.1/PaperTrades.pdb
+/Users/jfelechner/Personal Douments/Schooling/Coding Dojo/dojo_assignments/c#/project_week/peronal_project/PaperTrades/obj/Debug/netcoreapp3.1/PaperTrades.genruntimeconfig.cache

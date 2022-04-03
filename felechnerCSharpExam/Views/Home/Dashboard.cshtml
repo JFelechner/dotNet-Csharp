@@ -1,0 +1,53 @@
+@model List<ShinDig>
+
+<h1>Dojo Activity Center</h1>
+<table class="table table-striped">
+    <tr>
+        <th>Activity</th>
+        <th>Date & Time</th>
+        <th>Duration</th>
+        <th>Event Cordinator</th>
+        <th>No. of Participants</th>
+        <th>Actions</th>
+    </tr>
+    @{
+        foreach (ShinDig shinDig in Model)
+        {
+            <tr>
+                <td><a href="/ShinDig/@shinDig.ShinDigId">@shinDig.Name</a></td>
+                <td>@shinDig.Date : @shinDig.Time</td>
+                <td>@shinDig.DurationInt @shinDig.DurationStr</td>
+                <td>@shinDig.Planner.Name</td>
+                <td>@shinDig.Attendees.Count</td>
+
+                @if (ViewBag.LoggedInUser.UserId == shinDig.UserId)
+                {
+                    <td><a class="btn btn-danger" href="ShinDig/Delete/@shinDig.ShinDigId">Delete</a></td>
+                }
+                else
+                {
+                    @if (shinDig.Attendees.Any(g => g.UserId == ViewBag.LoggedInUser.UserId))
+                    {
+                        <td>
+                            <form action="Leave" method="post">
+                                <input type="hidden" name="UserId" value="@ViewBag.LoggedInUser.UserId">
+                                <input type="hidden" name="ShinDigId" value="@shinDig.ShinDigId">
+                                <input type="submit" class="btn btn-info" value="Leave">
+                            </form>
+                        </td>
+                    }
+                    else
+                    {
+                        <td>
+                            <form action="Join" method="post">
+                                <input type="hidden" name="UserId" value="@ViewBag.LoggedInUser.UserId">
+                                <input type="hidden" name="ShinDigId" value="@shinDig.ShinDigId">
+                                <input type="submit" class="btn btn-info" value="Join">
+                            </form>
+                        </td>
+                    }
+                }
+            </tr>
+        }
+    }
+</table>

@@ -1,0 +1,135 @@
+@model User
+
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-between">
+        <h3>Welcome @Model.Name</h3>
+        <div>
+            @{
+            double Total = 0;
+            foreach(Wallet w in @Model.myWallets)
+            {
+                Total += w.Profit;
+            }
+            <h3>Realized Profit: @Total</h3>
+            }
+        </div>
+        
+        <div>
+        </div>
+    </div>
+    <hr>
+    <Label class="h4">
+        TrackList
+        <hr>
+    </Label>
+    <div class="d-flex justify-content-around flex-wrap">
+        @{
+            foreach (var c in @ViewBag.AllCryptos)
+            {
+                foreach(Wallet w in @Model.myWallets)
+                {
+                    if (w.IsTracking == c.id.ToString())
+                    {
+                            <h3 class="mx-4"><a class="btn btn-sm border-none shadow-none font-weight-bold" href="/crypto/@c.id"><img src="@c.image" style="height: 50px;" alt="@c.id"><h5>@c.name</h5></a></h3>
+                    }
+                }
+                
+            }
+        }
+    </div>
+    <div>
+            <hr>
+        <h4>Cryptos to look out for
+        </h4>
+
+    <div class="d-flex justify-content-around">
+        <div>
+            @* A table for cryptos ordered by volume *@
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Coint Name</th>
+                                <th>Volume</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+            @{
+                int count = 0;
+                foreach (var c in @ViewBag.AllCryptos)
+                {
+                            <tr>
+                                <td class="align-middle"><img src="@c.image" style="height: 50px;" alt="@c.id"> <h5>@c.name</h5></td>
+                                <td class="align-middle">@c.total_volume</td>
+                            </tr>
+                            count++;
+                            if(count == 10) 
+                            {
+                                break;
+                            }
+                }
+            }
+                        </tbody>
+                    </table>
+        </div>
+
+            <div>
+                @* GAINS *@
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Coin Name</th>
+                                <th>24hr Change</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+                @{
+                                foreach (var c in @ViewBag.AllCryptos2)
+                                {
+                            <tr>
+                                <td class="align-middle"><img src="@c.image" style="height: 50px;" alt="@c.id"> <h5>@c.name</h5></td>
+                                <td class="align-middle" step={.01}>@c.price_change_percentage_24h%</td>
+                            </tr>
+                                }
+                }
+                        </tbody>
+                    </table>
+            </div>
+
+        <div>
+            @* table for highest current price *@
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Coin Name</th>
+                                <th>Market Cap</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+            @{
+                int count2 = 0;
+                foreach (var c in @ViewBag.AllCryptos3)
+                {
+                    
+                        if(count2 == 10) 
+                            {
+                                break;
+                            }
+                            else{
+                            <tr>
+                                <td class="align-middle"><img src="@c.image" style="height: 50px;" alt="@c.id"> <h5>@c.name</h5></td>
+                                <td class="align-middle">@c.market_cap</td>
+                            </tr>
+                            count2++;
+                            }
+                            
+                    
+                }
+            }
+                        </tbody>
+                    </table>
+        </div>
+    </div>
+
+</div>

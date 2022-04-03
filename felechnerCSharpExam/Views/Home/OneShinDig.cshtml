@@ -1,0 +1,48 @@
+
+
+<h1>@ViewBag.ShinDig.Name</h1>
+<h3>Event Cordinator: @ViewBag.ShinDig.Planner.Name </h3>
+<hr>
+<h4>Description:</h4>
+<p>@ViewBag.ShinDig.Description</p>
+
+
+    @if (ViewBag.LoggedInUser.UserId == ViewBag.shinDig.UserId)
+    {
+        <a class="btn btn-danger" href="ShinDig/Delete/@ViewBag.shinDig.ShinDigId">Delete</a>
+    }
+    @* else
+    {
+        @if (ViewBag.LoggedInUser.UserId == ViewBag.shinDig.Attendees.UserId)
+        {
+            <form action="Leave" method="post">
+                <input type="hidden" name="UserId" value="@ViewBag.LoggedInUser.UserId">
+                <input type="hidden" name="ShinDigId" value="@ViewBag..ShinDigId">
+                <input type="submit" class="btn btn-info" value="Leave">
+            </form>
+        }
+        else
+        {
+            <form action="Join" method="post">
+                <input type="hidden" name="UserId" value="@ViewBag.LoggedInUser.UserId">
+                <input type="hidden" name="ShinDigId" value="@ViewBag.shinDig.ShinDigId">
+                <input type="submit" class="btn btn-info" value="Join">
+            </form>
+        }
+    } *@
+
+
+<hr>
+<table class="table table-striped">
+    <tr>
+        <th>Participants</th>
+    </tr>
+    <tr>
+        @{
+            foreach (RSVP r in ViewBag.ShinDig.Attendees)
+            {
+                <td>@r.User.Name</td>
+            }
+        }
+    </tr>
+</table>

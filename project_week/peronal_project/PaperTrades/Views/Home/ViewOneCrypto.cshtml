@@ -1,0 +1,123 @@
+@model Wallet
+
+<div class="container">
+    @{
+        foreach (var c in @ViewBag.AllCryptos)
+        {
+            if (c.id == @Model.IsTracking)
+            {
+                <div class="mt-5 mb-2 d-flex justify-content-between">
+                    <div class="card text-white bg-dark" style="max-width: 25%;">
+                        <div class="card-header font-weight-italics">
+                            My @c.name
+                        </div>
+                        <div class="card-body">
+                                <table>
+                                    <thead>
+                                        <th class="mx-2">Quantity</th>
+                                        <th>Value</th>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>@Model.Quantity</td>
+                                            <td>$@Model.Value</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            
+                        </div>
+                    </div>
+                    
+                    <table class="table table-striped ml-5" style="max-width: 75%;">
+                        <thead>
+                            <th>Current Price</th>
+                            <th>Price Change (24hr)</th>
+                            <th>High / Low (24hr)</th>
+                            <th>Circulating / Total Supply</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>$@c.current_price</td>
+                                <td>$@c.price_change_24h <hr> @c.price_change_percentage_24h%</td>
+                                <td>$@c.high_24h <hr> $@c.low_24h</td>
+                                <td>
+                                    @c.circulating_supply <hr>
+                                    @{
+                                        if (@c.total_supply == null)
+                                        {
+                                            <Label class="text-danger">Data DNE</Label>
+                                        }
+                                        else
+                                        {
+                                            @c.total_supply
+                                        }
+                                    }
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="d-flex">
+                    <div>
+                        <h3 class="font-weight-bold">Transaction History</h3>
+                        <Table class="table table-striped" style="max-width: 75%;">
+                            <thead>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                            </thead>
+                            <tbody>
+                                @* @{
+                                    foreach(Receipt r in @Model.Receipts)
+                                    {
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                    }
+                                } *@
+                            </tbody>
+                        </Table>
+                    </div>
+                    <div>
+                        <p>
+                            <a class="btn btn-success" data-toggle="collapse" href="#multiCollapseExample1" role="button">Buy more Crypto</a>
+                            <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#multiCollapseExample2">Sell Crypto</button>
+                            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse">Toggle</button>
+                        </p>
+                        <div class="d-flex">
+                            <div class="collapse multi-collapse" style="max-width: 30%;" id="multiCollapseExample1">
+                                <div class="card card-body bg-secondary">
+                                    <form action="/buy/@c.id" class="form-group" method="post">
+                                        <label for="Quantity">Quantity</label>
+                                        <input type="number" step=".001" class="form-control" name="Quantity" for="Quantity">
+                                        <input type="hidden" value="@Model.Owner.UserId" name="UserId" for="UserId">
+                                        <input type="hidden" value="@Model.WalletId" name="WalletId" for="WalletId">
+                                        <input type="hidden" value="@c.current_price" name="TransactionPrice" for="TransactionPrice">
+                                        <input type="hidden" value="@DateTime.Now" for="UpdatedAt" name="UpdatedAt"/>
+                                        <input class="btn btn-success m-2" type="Submit" value="Buy Crypto">
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="collapse multi-collapse" style="max-width: 40%;" id="multiCollapseExample2">
+                                <div class="card card-body bg-secondary">
+                                    <form action="/sell/@c.id" class="form-group" method="post">
+                                        <label for="Quantity">Quantity</label>
+                                        <input type="number" step=".001" name="Quantity" class="form-control" for="Quantity">
+                                        <input type="hidden" value="@Model.Owner.UserId" name="UserId" for="UserId">
+                                        <input type="hidden" value="@Model.WalletId" name="WalletId" for="WalletId">
+                                        <input type="hidden" value="@c.current_price" name="TransactionPrice" for="TransactionPrice">
+                                        <input type="hidden" value="@DateTime.Now" for="UpdatedAt" name="UpdatedAt"/>
+                                        <input class="btn btn-danger m-2" type="Submit" value="Sell Crypto">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+    }
+
+</div>
