@@ -1,3 +1,4 @@
+
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -15,8 +16,10 @@ namespace PaperTrades.Models
         [Required]
         public double Quantity {get;set;}
 
+        public double AvgBuyingPrice { get; set;}
+
         [Required]
-        public double BuyInPrice { get; set; }
+        public double BuyInPrice { get; set;}
 
         [Required]
         public double CurrPrice { get; set;}
@@ -24,7 +27,7 @@ namespace PaperTrades.Models
         [Required]
         public double Value 
             { 
-            get { return Quantity * CurrPrice;}
+            get { return Quantity * AvgBuyingPrice;}
             }
         public double Profit { get; set; }
         public DateTime CreatedAt {get;set;} = DateTime.Now;
@@ -32,6 +35,6 @@ namespace PaperTrades.Models
 
         public int UserId {get;set;}
         public User Owner {get;set;}
-        public List<Receipt> Receipts { get; set; }
+        public List<Receipt> myReceipts { get; set; }
     }
 }

@@ -9,7 +9,7 @@ using PaperTrades.Models;
 namespace PaperTrades.Migrations
 {
     [DbContext(typeof(MyContext))]
-    [Migration("20220303023902_FirstMigration")]
+    [Migration("20220403202538_FirstMigration")]
     partial class FirstMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,9 +24,6 @@ namespace PaperTrades.Migrations
                     b.Property<int>("ReceiptId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
-
-                    b.Property<double>("Balance")
-                        .HasColumnType("double");
 
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime(6)");
@@ -70,6 +67,9 @@ namespace PaperTrades.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
+                    b.Property<double>("BuyingPwr")
+                        .HasColumnType("double");
+
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime(6)");
 
@@ -98,6 +98,12 @@ namespace PaperTrades.Migrations
                     b.Property<int>("WalletId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
+
+                    b.Property<double>("AvgBuyingPrice")
+                        .HasColumnType("double");
+
+                    b.Property<double>("BuyInPrice")
+                        .HasColumnType("double");
 
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime(6)");
@@ -137,7 +143,7 @@ namespace PaperTrades.Migrations
                         .IsRequired();
 
                     b.HasOne("PaperTrades.Models.Wallet", "MyWallet")
-                        .WithMany("Receipts")
+                        .WithMany("myReceipts")
                         .HasForeignKey("WalletId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();

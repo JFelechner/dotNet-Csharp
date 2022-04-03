@@ -39,13 +39,15 @@
                                 @{
                                     if(@ViewBag.loggedIn != false)
                                     {
-                                        <Button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#@c.name">Buy Crypto</Button>
-                                        <div class="collapse" id="@c.name">
+                                        <Button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".@c.id">Track Crypto</Button>
+                                        @* <Button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#@c.name">Buy Crypto</Button> *@
+                                        <div class="collapse @c.id">
                                             <form action="new" method="post">
-                                                <div class="form-group">
+                                                @* <div class="form-group">
                                                     <label for="Quantity">Quantity: </label>
                                                     <input for="Quantity" name="Quantity" class="form-control">
-                                                </div>
+                                                </div> *@
+                                                <input type="hidden" value=0 name="Quantity" for="Quantity">
                                                 <input type="hidden" value="@c.current_price" name="BuyInPrice" for="BuyInPrice">
                                                 <input type="hidden" value="@c.current_price" name="CurrPrice" for="CurrPrice">
                                                 <input type="hidden" value="@c.id" name="isTracking" for="isTracking">

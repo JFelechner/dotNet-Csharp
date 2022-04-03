@@ -1,3 +1,4 @@
+
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -19,9 +20,6 @@ namespace PaperTrades.Models
 
         [Required]
         public double TransactionPrice {get;set;}
-
-        [Required]
-        public double Balance {get;set;}
 
         [Required]
         public double Value {get;set;}
