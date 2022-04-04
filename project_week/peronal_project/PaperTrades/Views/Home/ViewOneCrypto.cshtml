@@ -6,7 +6,7 @@
         {
             if (c.id == @Model.IsTracking)
             {
-                <div class="mt-5 mb-2 d-flex justify-content-between">
+                <div class="mt-5 mb-2 d-flex">
                     <div class="card text-white bg-dark" style="max-width: 50%;">
                         <div class="card-header font-weight-italics">
                             <h3>My @c.name</h3>
@@ -51,6 +51,35 @@
                             </table>
                         </div>
                     </div>
+
+                            
+                        <div class="d-flex justify-content-between">
+                    @{
+                        if (Model.Profit < 0){
+                    <table class="table text-danger table-striped ml-5 mb-5" style="max-width: 50%;">
+                        <thead>
+                            <th>Loss</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>$@Model.Value</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                        } else {
+                            <table class="table text-success table-striped ml-5 mb-5" style="max-width: 50%;">
+                        <thead>
+                            <th>Gain</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>$@Model.Value</td>
+                            </tr>
+                        </tbody>
+                        </table>
+                        }
+                    }
+
                     <table class="table table-striped ml-5 mb-5" style="max-width: 50%;">
                         <thead>
                             <th>Price Change (24hr)</th>
@@ -78,6 +107,7 @@
                         </tbody>
                     </table>
                 </div>
+                        </div>
                 <div class="d-flex">
                     
                     <div style="height: 500px;" class="mr-5">
